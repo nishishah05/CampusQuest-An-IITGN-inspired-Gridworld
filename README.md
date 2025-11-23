@@ -58,7 +58,6 @@ https://github.com/user-attachments/assets/349adb13-04b7-47f1-a3c8-fc4676b313dd
 
 ### Step 4: Customize the World (Edit Mode)
 Want to make the game harder or change the layout?
-<img width="1481" height="1022" alt="image" src="https://github.com/user-attachments/assets/8d96c619-8af3-4850-848b-eaa381c9a49b" />
 1.  Click the **"EDIT MAP"** button and watch the panel transform.
 2.  **Move Walls:** Click any empty cell on the grid to place a Wall (🧱). Click a wall to remove it.
 3.  **Move Landmarks:**
@@ -67,6 +66,7 @@ Want to make the game harder or change the layout?
     * Change its reward value (e.g., make the Library worth +50 points).
 4.  **Add New Landmarks:** Use the "Landmark Builder" at the top of the panel to create custom stops (give it a name, an emoji, and a reward value). 
 5.  Click **"EXIT EDIT"** to save your changes and reset the memory.
+<img width="1481" height="1022" alt="image" src="https://github.com/user-attachments/assets/8d96c619-8af3-4850-848b-eaa381c9a49b" />
 
 ## Cool Stuff
 
