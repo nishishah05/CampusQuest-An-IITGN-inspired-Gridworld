@@ -10,22 +10,22 @@ The project features a retro pixel-art aesthetic, immersive sound effects, and a
 
 The application is divided into three main sections designed for clarity and interaction:
 
-### 1. The Main Grid (Left)
+### 1. The Main Grid 
 * **The Campus Map:** A $7 \times 9$ grid representing the campus layout.
 * **The Agent:** Represented by a **Backpack (🎒)** icon.
 * **Landmarks:**
     * **Start:** Ijokha Hostel (🏠).
-    * **Goal:** AB10 (🏛️) - The ultimate destination with a high reward (+500).
+    * **Goal:** AB10 (🏛️) - The ultimate destination with a high reward.
     * **Bonus Areas:** Library (📚) and Workspace (💻).
-    * **Obstacles/Penalties:** Tea Post (☕), 2D Lab (🍵), and Walls (🧱).
-    * **Other Locations:** Atul Bakery (🥐), Friend Meet (👋), and Dogs (🐕).
+    * **Obstacles:** Walls (🧱).
+    * **Penalties:** Tea Post (☕), 2D Lab (🍵), Atul Bakery (🥐), Friend Meet (👋), and Dogs (🐕).
 * **Visuals:** The grid overlays a translucent image of the iconic **Lal Minar**.
 
-### 2. Control Panel (Right - Top)
+### 2. Control Panel 
 * **System Status:** Displays real-time stats like the current Grid Size, the active Algorithm, and the size of the Q-Table (memory).
 * **Audio Toggle:** A button to mute/unmute the sound effects.
 
-### 3. Action Center (Right - Bottom)
+### 3. Action Center 
 * **Manual Controls:** D-Pad style buttons (UP, DOWN, LEFT, RIGHT) for manual navigation.
 * **Algorithm Selection:** Dedicated buttons to trigger **Q-LEARN**, **SARSA**, or **DEEP Q**.
 * **Playback:** A "PLAY PATH" button to visualize the agent's learned strategy.
@@ -37,13 +37,13 @@ The application is divided into three main sections designed for clarity and int
 ## 🚀 How to Use the App (Step-by-Step)
 
 ### Step 1: Manual Exploration (Imitation Learning)
-Before training the AI, you can "teach" it by playing yourself!
+Before training, you can "teach" it by playing yourself!
 1.  Use the **Arrow Keys** on your keyboard or the **Blue Buttons** on the screen.
 2.  Guide the backpack 🎒 from the Hostel 🏠 to AB10 🏛️.
-3.  **Tip:** Avoid the 2D Lab (🍵) and Tea Post (☕) as they give negative rewards. Visit the Library (📚) for bonus points!
+3.  **Tip:** Avoid the 2D Cafe (🍵) and Tea Post (☕) as they give negative rewards. Visit the Library (📚) for bonus points!
 4.  *Note: Every path you complete manually is saved and used to jump-start the AI's training.*
 
-### Step 2: Train the AI
+### Step 2: Training
 Choose one of the three Reinforcement Learning algorithms to solve the maze automatically.
 
 * **Click "Q-LEARN":** Best for finding the absolute shortest path, even if it's risky (walking close to penalties).
@@ -67,7 +67,7 @@ Want to make the game harder or change the layout?
     * Change its **Row (R)** and **Col (C)** coordinates using the inputs.
     * Change its **Reward** value (e.g., make the Library worth +50 points).
 4.  **Add New Landmarks:** Use the "Landmark Builder" at the top of the panel to create custom stops (give it a name, an emoji, and a reward value).
-5.  Click **"EXIT EDIT"** to save your changes and reset the AI memory.
+5.  Click **"EXIT EDIT"** to save your changes and reset the memory.
 
 ---
 
