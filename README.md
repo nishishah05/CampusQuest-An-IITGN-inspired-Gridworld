@@ -55,7 +55,9 @@ Once training is done:
 1.  Click the orange **"PLAY PATH"** button.
 2.  The agent will execute the learned strategy step-by-step.
 3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
-<img width="220" height="124" alt="image" src="https://github.com/user-attachments/assets/dcd0c25b-29ca-42a7-beac-62303b8a6fe7" />
+   
+image" src="https://github.com/user-attachments/assets/9a22209d-4f4a-452b-bf27-62c2593dd2eb" />
+
 
 
 ### Step 4: Customize the World (Edit Mode)
