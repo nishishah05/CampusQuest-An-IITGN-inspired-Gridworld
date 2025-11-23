@@ -2,7 +2,7 @@
 
 **CampusQuest** is an interactive Reinforcement Learning (RL) simulation designed to gamify the experience of navigating the IIT Gandhinagar campus. Built with React.js, this application allows users to train AI agents using various algorithms to find the optimal path from the hostels to the academic blocks, avoiding distractions and collecting rewards along the way.
 
-The project features a retro pixel-art aesthetic, complete with a custom "Lal Minar" background, immersive sound effects, and a fully configurable environment.
+The project features a retro pixel-art aesthetic, immersive sound effects, and a fully configurable environment.
 
 ---
 
