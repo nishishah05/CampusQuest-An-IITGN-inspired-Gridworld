@@ -86,11 +86,3 @@ The app records every move you make during "Manual Control." When you click a tr
 * **Soundscapes:** Distinct sounds for positive rewards (chimes), penalties (buzzers), and movement.
 * **Particle Effects:** Visual trails follow the agent, and gold/red sparks appear when collecting rewards or hitting penalties.
 * **Victory Mode:** A dedicated overlay with animations triggers upon successful completion of the goal. YAY!
-
----
-
-## Tech Stack
-* **React.js**: Component-based UI architecture.
-* **Web Audio API**: Custom-synthesized sound effects (oscillators) with no external assets required.
-* **Lucide React**: For vector icons.
-* **CSS Modules**: For the retro pixel-art styling and animations.
