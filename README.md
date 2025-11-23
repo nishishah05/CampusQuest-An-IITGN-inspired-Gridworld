@@ -27,7 +27,7 @@ The application is divided into three main sections designed for clarity and int
 
 ### 3. Action Center 
 * **Manual Controls:** D-Pad style buttons (UP, DOWN, LEFT, RIGHT) for manual navigation.
-* **Algorithm Selection: Buttons to trigger **Q-LEARN**, **SARSA**, or **DEEP Q**.
+* **Algorithm Selection**: Buttons to trigger **Q-LEARN**, **SARSA**, or **DEEP Q**.
 * **Playback:** A "PLAY PATH" button to visualize the agent's learned strategy.
 * **Edit Mode:** A toggle button to unlock the "Configuration Panel" for modifying the map.
 * **Event Log:** A scrolling terminal at the bottom that displays system messages, rewards collected, and training progress.
