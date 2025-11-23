@@ -22,12 +22,12 @@ The application is divided into three main sections designed for clarity and int
 * **Visuals:** The grid overlays an image of the iconic **Lal Minar**.
 
 ### 2. Control Panel 
-* **System Status:** Displays real-time stats like the current Grid Size, the active Algorithm, and the size of the Q-Table (memory).
+* **System Status:** Displays real-time stats like the current grid dimensions, the active Algorithm, and the size of the grid.
 * **Audio Toggle:** A button to mute/unmute the sound effects.
 
 ### 3. Action Center 
 * **Manual Controls:** D-Pad style buttons (UP, DOWN, LEFT, RIGHT) for manual navigation.
-* **Algorithm Selection:** Dedicated buttons to trigger **Q-LEARN**, **SARSA**, or **DEEP Q**.
+* **Algorithm Selection: Buttons to trigger **Q-LEARN**, **SARSA**, or **DEEP Q**.
 * **Playback:** A "PLAY PATH" button to visualize the agent's learned strategy.
 * **Edit Mode:** A toggle button to unlock the "Configuration Panel" for modifying the map.
 * **Event Log:** A scrolling terminal at the bottom that displays system messages, rewards collected, and training progress.
@@ -35,11 +35,11 @@ The application is divided into three main sections designed for clarity and int
 
 ## Let's Play!
 
-### Step 1: Manual Exploration (Imitation Learning)
-Before training, you can "teach" it by playing yourself!
+### Step 1: Manual Exploration
 1.  Use the **Arrow Keys** on your keyboard or the **Blue Buttons** on the screen.
 2.  Guide the backpack from the Hostel to AB10.
-Note: Every path you complete manually is saved and used to jump-start the AI's training.*
+
+**OR** 
 
 ### Step 2: Training
 Choose one of the three Reinforcement Learning algorithms to solve the maze automatically.
@@ -50,7 +50,7 @@ Choose one of the three Reinforcement Learning algorithms to solve the maze auto
 
 ### Step 3: Watch the Result
 Once training is done:
-1.  Click the orange **"PLAY PATH"** button.
+1.  Click the **"PLAY PATH"** button.
 2.  The agent will execute the learned strategy step-by-step.
 3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
 
@@ -60,13 +60,13 @@ Once training is done:
 ### Step 4: Customize the World (Edit Mode)
 Want to make the game harder or change the layout?
 <img width="1481" height="1022" alt="image" src="https://github.com/user-attachments/assets/8d96c619-8af3-4850-848b-eaa381c9a49b" />
-1.  Click the yellow **"EDIT MAP"** button and watch the panel transform.
+1.  Click the **"EDIT MAP"** button and watch the panel transform.
 2.  **Move Walls:** Click any empty cell on the grid to place a Wall (🧱). Click a wall to remove it.
 3.  **Move Landmarks:**
     * Find the landmark in the list (e.g., "Library").
     * Change its Row (R) and Col (C) coordinates using the inputs.
     * Change its reward value (e.g., make the Library worth +50 points).
-4.  **Add New Landmarks:** Use the "Landmark Builder" at the top of the panel to create custom stops (give it a name, an emoji, and a reward value).
+4.  **Add New Landmarks:** Use the "Landmark Builder" at the top of the panel to create custom stops (give it a name, an emoji, and a reward value). 
 5.  Click **"EXIT EDIT"** to save your changes and reset the memory.
 
 ## Cool Stuff
