@@ -19,7 +19,7 @@ The application is divided into three main sections designed for clarity and int
     * **Bonus Areas:** Library (📚) and Workspace (💻).
     * **Obstacles:** Walls (🧱).
     * **Penalties:** Tea Post (☕), 2D Lab (🍵), Atul Bakery (🥐), Friend Meet (👋), and Dogs (🐕).
-* **Visuals:** The grid overlays a translucent image of the iconic **Lal Minar**.
+* **Visuals:** The grid overlays an image of the iconic **Lal Minar** (retro-fied :)).
 
 ### 2. Control Panel 
 * **System Status:** Displays real-time stats like the current Grid Size, the active Algorithm, and the size of the Q-Table (memory).
