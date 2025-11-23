@@ -1,6 +1,6 @@
 # CampusQuest: An IITGN-inspired Gridworld
 
-**CampusQuest** is an interactive Reinforcement Learning (RL) simulation designed to gamify the experience of navigating the IIT Gandhinagar campus. Built with React.js, this application allows users to train AI agents using various algorithms to find the optimal path from the hostels to the academic blocks, avoiding distractions and collecting rewards along the way.
+**CampusQuest** is an interactive Reinforcement Learning (RL) simulation designed to gamify the experience of navigating the IIT Gandhinagar campus. This application allows users to train AI agents using various algorithms to find the optimal path from the hostels to the academic blocks, avoiding distractions and collecting rewards along the way.
 
 The project features a retro pixel-art aesthetic, immersive sound effects, and a fully configurable environment.
 
@@ -13,14 +13,14 @@ The application is divided into three main sections designed for clarity and int
 
 ### 1. The Main Grid 
 * **The Campus Map:** A $7 \times 9$ grid representing the campus layout.
-* **The Agent:** Represented by a **Backpack (🎒)** icon.
+* **The Agent:** Represented by a Backpack (🎒) icon.
 * **Landmarks:**
     * **Start:** Ijokha Hostel (🏠).
     * **Goal:** AB10 (🏛️) - On our way to FAI :).
     * **Bonus Areas:** Library (📚) and Workspace (💻).
     * **Obstacles:** Walls (🧱).
     * **Penalties:** Tea Post (☕), 2D Cafe (🍵), Atul Bakery (🥐), Friend Meet (👋), and Dogs (🐕) -> they _sound_ great, but be cautious!
-* **Visuals:** The grid overlays an image of the iconic **Lal Minar**).
+* **Visuals:** The grid overlays an image of the iconic **Lal Minar**.
 
 ### 2. Control Panel 
 * **System Status:** Displays real-time stats like the current Grid Size, the active Algorithm, and the size of the Q-Table (memory).
@@ -41,8 +41,7 @@ The application is divided into three main sections designed for clarity and int
 Before training, you can "teach" it by playing yourself!
 1.  Use the **Arrow Keys** on your keyboard or the **Blue Buttons** on the screen.
 2.  Guide the backpack from the Hostel to AB10.
-3.  **Tip:** Avoid the 2D Cafe (🍵) and Tea Post (☕) as they give negative rewards. Visit the Library (📚) for bonus points!
-4.  *Note: Every path you complete manually is saved and used to jump-start the AI's training.*
+3.  *Note: Every path you complete manually is saved and used to jump-start the AI's training.*
 
 ### Step 2: Training
 Choose one of the three Reinforcement Learning algorithms to solve the maze automatically.
@@ -70,7 +69,7 @@ Want to make the game harder or change the layout?
 
 ---
 
-## 🛠️ Key Functionalities
+## Key Functionalities
 
 ### 1. Reinforcement Learning Algorithms
 * **Q-Learning (Off-Policy):** A greedy algorithm that learns the value of the optimal action sequence.
@@ -86,11 +85,11 @@ The app records every move you make during "Manual Control." When you click a tr
 ### 4. Audio-Visual Feedback
 * **Soundscapes:** Distinct sounds for positive rewards (chimes), penalties (buzzers), and movement.
 * **Particle Effects:** Visual trails follow the agent, and gold/red sparks appear when collecting rewards or hitting penalties.
-* **Victory Mode:** A dedicated overlay with animations triggers upon successful completion of the goal.
+* **Victory Mode:** A dedicated overlay with animations triggers upon successful completion of the goal. YAY!
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 * **React.js**: Component-based UI architecture.
 * **Web Audio API**: Custom-synthesized sound effects (oscillators) with no external assets required.
 * **Lucide React**: For vector icons.
