@@ -55,8 +55,8 @@ Once training is done:
 1.  Click the orange **"PLAY PATH"** button.
 2.  The agent will execute the learned strategy step-by-step.
 3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
-   
-image" src="https://github.com/user-attachments/assets/9a22209d-4f4a-452b-bf27-62c2593dd2eb" />
+
+![the-office-kevin-malone](https://github.com/user-attachments/assets/c0cd896c-5085-4526-9e73-d69eead23a9b)
 
 
 
