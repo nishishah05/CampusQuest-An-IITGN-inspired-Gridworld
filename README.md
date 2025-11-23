@@ -5,7 +5,7 @@
 The project features a retro pixel-art aesthetic, immersive sound effects, and a fully configurable environment.
 
 ---
-![WhatsApp Image 2025-11-23 at 20 02 44_9eb36399](https://github.com/user-attachments/assets/65db3803-b33d-4dd9-810b-b2d082603465)
+<img width="2219" height="1197" alt="image" src="https://github.com/user-attachments/assets/aa843143-5515-4761-b68a-d4089acd3b44" />
 
 ## User Interface Overview
 
