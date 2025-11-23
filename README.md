@@ -4,10 +4,9 @@
 
 The project features a retro pixel-art aesthetic, immersive sound effects, and a fully configurable environment.
 
----
 <img width="2219" height="1197" alt="image" src="https://github.com/user-attachments/assets/aa843143-5515-4761-b68a-d4089acd3b44" />
 
-## User Interface Overview
+## The Visuals
 
 The application is divided into three main sections designed for clarity and interaction:
 
@@ -33,9 +32,8 @@ The application is divided into three main sections designed for clarity and int
 * **Edit Mode:** A toggle button to unlock the "Configuration Panel" for modifying the map.
 * **Event Log:** A scrolling terminal at the bottom that displays system messages, rewards collected, and training progress.
 
----
 
-## How to Use the App (Step-by-Step)
+## Let's Play!
 
 ### Step 1: Manual Exploration (Imitation Learning)
 Before training, you can "teach" it by playing yourself!
@@ -71,9 +69,7 @@ Want to make the game harder or change the layout?
 4.  **Add New Landmarks:** Use the "Landmark Builder" at the top of the panel to create custom stops (give it a name, an emoji, and a reward value).
 5.  Click **"EXIT EDIT"** to save your changes and reset the memory.
 
----
-
-## Key Functionalities
+## Cool Stuff
 
 ### 1. Reinforcement Learning Algorithms
 * **Q-Learning (Off-Policy):** A greedy algorithm that learns the value of the optimal action sequence.
