@@ -16,11 +16,11 @@ The application is divided into three main sections designed for clarity and int
 * **The Agent:** Represented by a **Backpack (🎒)** icon.
 * **Landmarks:**
     * **Start:** Ijokha Hostel (🏠).
-    * **Goal:** AB10 (🏛️) - The ultimate destination with a high reward.
+    * **Goal:** AB10 (🏛️) - On our way to FAI :).
     * **Bonus Areas:** Library (📚) and Workspace (💻).
     * **Obstacles:** Walls (🧱).
-    * **Penalties:** Tea Post (☕), 2D Lab (🍵), Atul Bakery (🥐), Friend Meet (👋), and Dogs (🐕).
-* **Visuals:** The grid overlays an image of the iconic **Lal Minar** (retro-fied :)).
+    * **Penalties:** Tea Post (☕), 2D Cafe (🍵), Atul Bakery (🥐), Friend Meet (👋), and Dogs (🐕) -> they _sound_ great, but be cautious!
+* **Visuals:** The grid overlays an image of the iconic **Lal Minar**).
 
 ### 2. Control Panel 
 * **System Status:** Displays real-time stats like the current Grid Size, the active Algorithm, and the size of the Q-Table (memory).
@@ -40,7 +40,7 @@ The application is divided into three main sections designed for clarity and int
 ### Step 1: Manual Exploration (Imitation Learning)
 Before training, you can "teach" it by playing yourself!
 1.  Use the **Arrow Keys** on your keyboard or the **Blue Buttons** on the screen.
-2.  Guide the backpack 🎒 from the Hostel 🏠 to AB10 🏛️.
+2.  Guide the backpack from the Hostel to AB10.
 3.  **Tip:** Avoid the 2D Cafe (🍵) and Tea Post (☕) as they give negative rewards. Visit the Library (📚) for bonus points!
 4.  *Note: Every path you complete manually is saved and used to jump-start the AI's training.*
 
@@ -51,22 +51,20 @@ Choose one of the three Reinforcement Learning algorithms to solve the maze auto
 * **Click "SARSA":** Best for finding a "safe" path. The agent might take a longer route to avoid accidentally slipping into a penalty zone.
 * **Click "DEEP Q (Approx)":** Uses a linear approximation instead of a table. Watch how it generalizes direction rather than memorizing specific cells.
 
-*Wait for the "Training complete!" message in the Event Log.*
-
 ### Step 3: Watch the Result
 Once training is done:
 1.  Click the orange **"PLAY PATH"** button.
 2.  The agent will execute the learned strategy step-by-step.
-3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, fanfare music, and a dancing victory popup! 💃🎉
+3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
 
 ### Step 4: Customize the World (Edit Mode)
 Want to make the game harder or change the layout?
-1.  Click the yellow **"EDIT MAP"** button. The Control Panel will flip to the **Configuration Panel**.
+1.  Click the yellow **"EDIT MAP"** button and watch the panel transform.
 2.  **Move Walls:** Click any empty cell on the grid to place a Wall (🧱). Click a wall to remove it.
 3.  **Move Landmarks:**
     * Find the landmark in the list (e.g., "Library").
-    * Change its **Row (R)** and **Col (C)** coordinates using the inputs.
-    * Change its **Reward** value (e.g., make the Library worth +50 points).
+    * Change its Row (R) and Col (C) coordinates using the inputs.
+    * Change its reward value (e.g., make the Library worth +50 points).
 4.  **Add New Landmarks:** Use the "Landmark Builder" at the top of the panel to create custom stops (give it a name, an emoji, and a reward value).
 5.  Click **"EXIT EDIT"** to save your changes and reset the memory.
 
@@ -86,9 +84,9 @@ Unlike static gridworlds, CampusQuest allows users to redesign the map in real-t
 The app records every move you make during "Manual Control." When you click a training button, the AI first replays your manual episodes to learn from your behavior before starting its own random exploration.
 
 ### 4. Audio-Visual Feedback
-* **Soundscapes:** Distinct 8-bit sounds for positive rewards (chimes), penalties (buzzers), and movement.
+* **Soundscapes:** Distinct sounds for positive rewards (chimes), penalties (buzzers), and movement.
 * **Particle Effects:** Visual trails follow the agent, and gold/red sparks appear when collecting rewards or hitting penalties.
-* **Victory Mode:** A dedicated modal overlay with animations triggers upon successful completion of the goal.
+* **Victory Mode:** A dedicated overlay with animations triggers upon successful completion of the goal.
 
 ---
 
