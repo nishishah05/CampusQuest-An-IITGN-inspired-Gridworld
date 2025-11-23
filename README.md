@@ -41,7 +41,7 @@ The application is divided into three main sections designed for clarity and int
 Before training, you can "teach" it by playing yourself!
 1.  Use the **Arrow Keys** on your keyboard or the **Blue Buttons** on the screen.
 2.  Guide the backpack from the Hostel to AB10.
-3.  *Note: Every path you complete manually is saved and used to jump-start the AI's training.*
+* Note: Every path you complete manually is saved and used to jump-start the AI's training.*
 
 ### Step 2: Training
 Choose one of the three Reinforcement Learning algorithms to solve the maze automatically.
@@ -55,6 +55,8 @@ Once training is done:
 1.  Click the orange **"PLAY PATH"** button.
 2.  The agent will execute the learned strategy step-by-step.
 3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
+<img width="220" height="124" alt="image" src="https://github.com/user-attachments/assets/dcd0c25b-29ca-42a7-beac-62303b8a6fe7" />
+
 
 ### Step 4: Customize the World (Edit Mode)
 Want to make the game harder or change the layout?
