@@ -1,4 +1,4 @@
-# CampusQuest: An IITGN-inspired Gridworld 🎓
+# CampusQuest: An IITGN-inspired Gridworld
 
 **CampusQuest** is an interactive Reinforcement Learning (RL) simulation designed to gamify the experience of navigating the IIT Gandhinagar campus. Built with React.js, this application allows users to train AI agents using various algorithms to find the optimal path from the hostels to the academic blocks, avoiding distractions and collecting rewards along the way.
 
@@ -6,7 +6,7 @@ The project features a retro pixel-art aesthetic, immersive sound effects, and a
 
 ---
 
-## 🖥️ User Interface Overview
+## User Interface Overview
 
 The application is divided into three main sections designed for clarity and interaction:
 
@@ -34,7 +34,7 @@ The application is divided into three main sections designed for clarity and int
 
 ---
 
-## 🚀 How to Use the App (Step-by-Step)
+## How to Use the App (Step-by-Step)
 
 ### Step 1: Manual Exploration (Imitation Learning)
 Before training, you can "teach" it by playing yourself!
