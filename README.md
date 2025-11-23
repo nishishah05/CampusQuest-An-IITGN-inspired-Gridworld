@@ -54,9 +54,7 @@ Once training is done:
 2.  The agent will execute the learned strategy step-by-step.
 3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
 
-
-https://github.com/user-attachments/assets/b014c0aa-b230-4ea5-8852-339f1aa9703e
-
+https://github.com/nishishah05/CampusQuest-An-IITGN-inspired-Gridworld/blob/main/playpath_demo.mp4
 
 ### Step 4: Customize the World (Edit Mode)
 Want to make the game harder or change the layout?
