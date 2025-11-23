@@ -54,7 +54,8 @@ Once training is done:
 2.  The agent will execute the learned strategy step-by-step.
 3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
 
-![the-office-kevin-malone](https://github.com/user-attachments/assets/c0cd896c-5085-4526-9e73-d69eead23a9b)
+
+https://github.com/user-attachments/assets/b014c0aa-b230-4ea5-8852-339f1aa9703e
 
 
 ### Step 4: Customize the World (Edit Mode)
@@ -86,3 +87,5 @@ The app records every move you make during "Manual Control." When you click a tr
 * **Soundscapes:** Distinct sounds for positive rewards (chimes), penalties (buzzers), and movement.
 * **Particle Effects:** Visual trails follow the agent, and gold/red sparks appear when collecting rewards or hitting penalties.
 * **Victory Mode:** A dedicated overlay with animations triggers upon successful completion of the goal. YAY!
+
+![the-office-kevin-malone](https://github.com/user-attachments/assets/c0cd896c-5085-4526-9e73-d69eead23a9b)
