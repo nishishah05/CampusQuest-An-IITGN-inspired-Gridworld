@@ -54,8 +54,7 @@ Once training is done:
 2.  The agent will execute the learned strategy step-by-step.
 3.  **Victory:** If the agent reaches AB10, enjoy the **Mega Celebration** with confetti, and a very necessary 'The Office' dancing victory gif!
 
-https://github.com/user-attachments/assets/b45b6147-89cd-40c2-943f-3874e62bfeff
-
+https://github.com/user-attachments/assets/349adb13-04b7-47f1-a3c8-fc4676b313dd
 
 ### Step 4: Customize the World (Edit Mode)
 Want to make the game harder or change the layout?
