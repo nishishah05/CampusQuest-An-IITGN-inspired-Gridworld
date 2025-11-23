@@ -1,6 +1,6 @@
 # CampusQuest: An IITGN-inspired Gridworld
 
-**CampusQuest** is an interactive Reinforcement Learning (RL) simulation designed to gamify the experience of navigating the IIT Gandhinagar campus. This application allows users to train AI agents using various algorithms to find the optimal path from the hostels to the academic blocks, avoiding distractions and collecting rewards along the way.
+**CampusQuest** is an interactive Reinforcement Learning (RL) simulation designed to gamify the experience of navigating the IIT Gandhinagar campus. This application allows users to train AI agents using various algorithms to find the optimal path from the hostel to the academic block, avoiding distractions and collecting rewards along the way.
 
 The project features a retro pixel-art aesthetic, immersive sound effects, and a fully configurable environment.
 
@@ -41,7 +41,7 @@ The application is divided into three main sections designed for clarity and int
 Before training, you can "teach" it by playing yourself!
 1.  Use the **Arrow Keys** on your keyboard or the **Blue Buttons** on the screen.
 2.  Guide the backpack from the Hostel to AB10.
-* Note: Every path you complete manually is saved and used to jump-start the AI's training.*
+Note: Every path you complete manually is saved and used to jump-start the AI's training.*
 
 ### Step 2: Training
 Choose one of the three Reinforcement Learning algorithms to solve the maze automatically.
@@ -59,9 +59,9 @@ Once training is done:
 ![the-office-kevin-malone](https://github.com/user-attachments/assets/c0cd896c-5085-4526-9e73-d69eead23a9b)
 
 
-
 ### Step 4: Customize the World (Edit Mode)
 Want to make the game harder or change the layout?
+<img width="1481" height="1022" alt="image" src="https://github.com/user-attachments/assets/8d96c619-8af3-4850-848b-eaa381c9a49b" />
 1.  Click the yellow **"EDIT MAP"** button and watch the panel transform.
 2.  **Move Walls:** Click any empty cell on the grid to place a Wall (🧱). Click a wall to remove it.
 3.  **Move Landmarks:**
