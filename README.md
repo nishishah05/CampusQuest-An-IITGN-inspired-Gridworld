@@ -35,20 +35,20 @@ The application is divided into three main sections designed for clarity and int
 
 ## Let's Play!
 
-### Step 1: Manual Exploration
+### Manual Exploration
 1.  Use the **Arrow Keys** on your keyboard or the **Blue Buttons** on the screen.
 2.  Guide the backpack from the Hostel to AB10.
 
 **OR** 
 
-### Step 2: Training
+### Training
 Choose one of the three Reinforcement Learning algorithms to solve the maze automatically.
 
 * **Click "Q-LEARN":** Best for finding the absolute shortest path, even if it's risky (walking close to penalties).
 * **Click "SARSA":** Best for finding a "safe" path. The agent might take a longer route to avoid accidentally slipping into a penalty zone.
 * **Click "DEEP Q (Approx)":** Uses a linear approximation instead of a table. Watch how it generalizes direction rather than memorizing specific cells.
 
-### Step 3: Watch the Result
+### ... And now, watch the result!
 Once training is done:
 1.  Click the **"PLAY PATH"** button.
 2.  The agent will execute the learned strategy step-by-step.
