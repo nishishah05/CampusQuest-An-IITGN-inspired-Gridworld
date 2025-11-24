@@ -78,10 +78,7 @@ Want to make the game harder or change the layout?
 ### 2. Dynamic Environment Editing
 Unlike static gridworlds, CampusQuest allows users to redesign the map in real-time. You can create mazes, move the goal, or surround the agent with obstacles to test how different algorithms adapt to new challenges.
 
-### 3. Imitation Learning
-The app records every move you make during "Manual Control." When you click a training button, the AI first replays your manual episodes to learn from your behavior before starting its own random exploration.
-
-### 4. Audio-Visual Feedback
+### 3. Audio-Visual Feedback
 * **Soundscapes:** Distinct sounds for positive rewards (chimes), penalties (buzzers), and movement.
 * **Particle Effects:** Visual trails follow the agent, and gold/red sparks appear when collecting rewards or hitting penalties.
 * **Victory Mode:** A dedicated overlay with animations triggers upon successful completion of the goal. YAY!
